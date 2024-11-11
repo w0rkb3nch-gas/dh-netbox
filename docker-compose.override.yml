@@ -1,1 +1,10 @@
-
+services:
+  netbox:
+    ports:
+      - "9447:8080"
+    environment:
+      SKIP_SUPERUSER: "false"
+      # SUPERUSER_API_TOKEN: ""
+      SUPERUSER_EMAIL: "admin@ventura.contact"
+      SUPERUSER_NAME: "w0rkb3nch"
+      SUPERUSER_PASSWORD: "@s$*t*POy8W9Z713"
